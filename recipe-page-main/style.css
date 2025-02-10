@@ -1,0 +1,193 @@
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: youngSerif;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr {
+  color: hsl(30, 10%, 34%);
+}
+body {
+  background-color: rgb(243, 229, 216);
+  margin-bottom: 150px;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  margin: 0;
+  background-color: white;
+  max-width: 90vh;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  padding: 50px 40px;
+}
+.omelette {
+  max-width: 100%;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+  margin-bottom: 35px;
+}
+header h1 {
+  font-family: youngSerif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 20px;
+}
+header p {
+  font-family: outfit;
+  font-size: 18px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+  max-width: 100%;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+  height: 195px;
+  padding-left: 35px;
+  padding-top: 20px;
+  
+}
+.preparation-time h3 {
+  font-family: outfit;
+  font-weight: 600;
+  color: rgb(123, 40, 79);
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.preparation-time ul {
+  padding-left: 30px;
+}
+.preparation-time li::marker{
+  color: rgb(123, 40, 79);
+}
+.preparation-time li {
+  font-size: 18px;
+  font-family: outfit;
+  margin-bottom: 12px;
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
+}
+.preparation-time span {
+  font-weight: bold;
+}
+.ingredients h2{
+  font-family: youngSerif;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: rgb(133, 70, 50);
+}
+.ingredients ul {
+  padding-left: 30px;
+  list-style-type:square ;
+  margin-bottom: 35px;
+}
+.ingredients li {
+  font-size: 18px;
+  font-family: outfit;
+  margin-bottom: 15px;
+  color: hsl(24, 5%, 18%);
+  padding-left: 15px;
+}
+.ingredients li::marker {
+  color: rgb(133, 70, 50);
+}
+.Instructions h2{
+  font-family: youngSerif;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: rgb(133, 70, 50);
+}
+.Instructions ol {
+  padding-left: 28px;
+  margin-bottom: 35px;
+}
+.Instructions li {
+  font-size: 18px;
+  font-family: outfit;
+  color: hsl(30, 10%, 34%);
+  padding-left: 20px;
+  margin-bottom: 15px;
+  line-height: 30px;
+  max-width: 100%;
+}
+.Instructions li::marker {
+  color: rgb(133, 70, 50);
+  font-family: outfit;
+  font-weight: 700;
+}
+.Instructions span {
+  font-weight: bold;
+}
+.Nutrition h2 {
+  font-family: youngSerif;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: rgb(133, 70, 50);
+}
+.Nutrition p {
+  color: hsl(30, 10%, 34%);
+  font-family: outfit;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.Nutrition table {
+  font-family: outfit;
+  width: 100%;
+}
+.cell, .cell2, .cell3 {
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 35px;
+}
+.cell4 {
+  padding: 10px;
+  font-size: 18px;
+  padding-left: 35px;
+}
+.value, .value2, .value3 {
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 35px;
+}
+.value4 {
+  padding: 10px;
+  font-size: 18px;
+  padding-left: 35px;
+}
+.Nutrition td:first-child {
+  text-align: start;
+}
+.Nutrition td:last-child {
+  text-align: start;
+  font-weight: bold;
+  color: rgb(133, 70, 50);
+}
+.attribution {
+  font-size: 18px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
